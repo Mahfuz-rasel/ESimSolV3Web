@@ -47,7 +47,7 @@ export class SidebarMenuComponent implements OnInit {
                     [
                         new MenuItem(
                             'Child Test2',
-                            'https://aspnetboilerplate.com?ref=abptmpl',
+                            'https://aspnetboilerplate5.com?ref=abptmpl',
                             'far fa-circle'
                         )  
                     ]
@@ -58,37 +58,37 @@ export class SidebarMenuComponent implements OnInit {
         new MenuItem( 'Users','/app/users','fas fa-users','Pages.Users'),
 
        new MenuItem('MultiLevelMenu', '', 'fas fa-circle', '', [
-            new MenuItem('ASP.NET Boilerplate', '', 'fas fa-dot-circle', '', [
+            new MenuItem('Test', '', 'fas fa-dot-circle', '', [
                 new MenuItem(
                     'Home',
-                    'https://aspnetboilerplate.com?ref=abptmpl',
+                    'https://aspnetboilerplate1.com?ref=abptmpl',
                     'far fa-circle'
                 ),
                 new MenuItem(
                     'Templates',
-                    'https://aspnetboilerplate.com/Templates?ref=abptmpl',
+                    'https://aspnetboilerplate1.com/Templates?ref=abptmpl',
                     'far fa-circle'
                 ),
                 new MenuItem(
                     'Samples',
-                    'https://aspnetboilerplate.com/Samples?ref=abptmpl',
+                    'https://aspnetboilerplate1.com/Samples?ref=abptmpl',
                     'far fa-circle'
                 ),
                 new MenuItem(
                     'Documents',
-                    'https://aspnetboilerplate.com/Pages/Documents?ref=abptmpl',
+                    'https://aspnetboilerplate1.com/Pages/Documents?ref=abptmpl',
                     'far fa-circle'
                 ),
             ]),
-            new MenuItem('ASP.NET Zero', '', 'fas fa-dot-circle', '', [
+            new MenuItem('Test 2', '', 'fas fa-dot-circle', '', [
                 new MenuItem(
                     'Home',
-                    'https://aspnetzero.com?ref=abptmpl',
+                    'https://aspnetzero1.com?ref=abptmpl',
                     'far fa-circle'
                 ),
                 new MenuItem(
                     'Features',
-                    'https://aspnetzero.com/Features?ref=abptmpl',
+                    'https://aspnetzero1.com/Features?ref=abptmpl',
                     'far fa-circle'
                 ),
                 new MenuItem(
@@ -98,12 +98,12 @@ export class SidebarMenuComponent implements OnInit {
                 ),
                 new MenuItem(
                     'Faq',
-                    'https://aspnetzero.com/Faq?ref=abptmpl',
+                    'https://aspnetzero1.com/Faq?ref=abptmpl',
                     'far fa-circle'
                 ),
                 new MenuItem(
                     'Documents',
-                    'https://aspnetzero.com/Documents?ref=abptmpl',
+                    'https://aspnetzero1.com/Documents?ref=abptmpl',
                     'far fa-circle'
                 )
             ])
