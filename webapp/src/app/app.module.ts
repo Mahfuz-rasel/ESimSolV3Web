@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { AgGridModule } from 'ag-grid-angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
@@ -12,6 +13,7 @@ import { UserlistComponent } from './usermanagement/userlist/userlist.component'
 
 @NgModule({
   declarations: [
+    
     AppComponent,
     FooterComponent,
     HeaderComponent,
@@ -21,6 +23,7 @@ import { UserlistComponent } from './usermanagement/userlist/userlist.component'
    
   ],
   imports: [
+    AgGridModule.withComponents(null),
     BrowserModule,
     AppRoutingModule,
     FormsModule,
