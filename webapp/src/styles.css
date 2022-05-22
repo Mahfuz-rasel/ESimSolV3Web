@@ -2,3 +2,16 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "ag-grid-community/dist/styles/ag-grid.css";
 @import "ag-grid-community/dist/styles/ag-theme-balham.css";
+
+
+.nav-user-menu .user-image {
+    float: left;
+    height: 2rem;
+    margin-top: -4px;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.elevation-2 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
+}

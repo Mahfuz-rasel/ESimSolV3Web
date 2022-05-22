@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './usermanagement/login/login.component';
 import { UserlistComponent } from './usermanagement/userlist/userlist.component';
 const routes: Routes = [
+  {path:"",component:LoginComponent},
   {path:"usermanagement/login",component:LoginComponent},
   {path:"usermanagement/userlist",component:UserlistComponent}
 ];
