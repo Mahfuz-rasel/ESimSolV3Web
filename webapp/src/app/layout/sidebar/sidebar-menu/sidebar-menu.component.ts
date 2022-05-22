@@ -37,7 +37,24 @@ export class SidebarMenuComponent implements OnInit {
        new MenuItem('About', '/app/about', 'fas fa-info-circle'),
         new MenuItem('HomePage', '/app/home', 'fas fa-home'),
         new MenuItem('Roles','/app/roles','fas fa-theater-masks','Pages.Roles' ),
-        new MenuItem( 'Tenants','/app/tenants','fas fa-building','Pages.Tenants'),
+        new MenuItem( 'Tenants Test','','fas fa-building','',[
+            new MenuItem('Tett2', '', 'fas fa-dot-circle', '', [
+                new MenuItem(
+                    'Child Test',
+                    '',
+                    'far fa-circle',
+                    '',
+                    [
+                        new MenuItem(
+                            'Child Test2',
+                            'https://aspnetboilerplate.com?ref=abptmpl',
+                            'far fa-circle'
+                        )  
+                    ]
+                )
+            ])
+        ]),
+
         new MenuItem( 'Users','/app/users','fas fa-users','Pages.Users'),
 
        new MenuItem('MultiLevelMenu', '', 'fas fa-circle', '', [
