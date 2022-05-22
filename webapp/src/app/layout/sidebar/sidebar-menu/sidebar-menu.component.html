@@ -1,4 +1,6 @@
-<nav class="mt-2">
+
+
+  <nav class="mt-2">
     <ul
       class="nav nav-pills nav-sidebar flex-column nav-flat"
       data-widget="treeview"
@@ -42,7 +44,7 @@
           {{ item.label }}
         </p>
       </a>
-      <!-- <a
+      <a
         *ngIf="!item.route && item.children"
         class="nav-link"
         href="javascript:;"
@@ -55,19 +57,18 @@
           <i class="right fas fa-angle-left"></i>
         </p>
       </a>
-  
       <ul
         *ngIf="item.children"
         class="nav nav-treeview"
-        [collapse]="item.isCollapsed"
-        [isAnimated]="true"
+       
+       
       >
         <ng-container *ngFor="let item of item.children">
           <ng-container
             *ngTemplateOutlet="sidebarInner; context: { item: item }"
           ></ng-container>
         </ng-container>
-      </ul> -->
+      </ul>
     </li>
   </ng-template>
   
