@@ -1,11 +1,16 @@
 <div class="wrapper">
     <app-header></app-header>
-    <sidebar></sidebar>
+    
     <div class="content-wrapper">
-        <router-outlet></router-outlet>
+        <div style="min-height:88vh">
+            <sidebar></sidebar>
+            <router-outlet></router-outlet>
+        </div>
     </div>
     <app-footer></app-footer>
     <!-- <div id="sidebar-overlay" (click)="toggleSidebar()"></div> -->
 </div>
+
+<!-- <layout-main></layout-main> -->
 
 

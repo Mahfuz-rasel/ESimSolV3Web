@@ -15,6 +15,10 @@ import { HeaderUserMenuComponent } from './layout/header/header-user-menu/header
 import { SidebarLogoComponent } from './layout/sidebar/sidebar-logo/sidebar-logo.component';
 import { SidebarUserPanelComponent } from './layout/sidebar/sidebar-user-panel/sidebar-user-panel.component';
 import { SidebarMenuComponent } from './layout/sidebar/sidebar-menu/sidebar-menu.component';
+import { LayoutMainComponent } from './layout/layout-main/layout-main.component';
+import { IcsTreeComponent } from 'src/shared/Reusable/ics-tree/ics-tree.component';
+
+
 
 @NgModule({
   declarations: [
@@ -30,6 +34,8 @@ import { SidebarMenuComponent } from './layout/sidebar/sidebar-menu/sidebar-menu
     SidebarLogoComponent,
     SidebarUserPanelComponent,
     SidebarMenuComponent,
+    LayoutMainComponent,
+    IcsTreeComponent
    
   ],
   imports: [
